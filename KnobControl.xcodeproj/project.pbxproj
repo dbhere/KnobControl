@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		35B926212236B8A200AA2E18 /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B9261F2236B8A200AA2E18 /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35B926282236B8EB00AA2E18 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B926272236B8EB00AA2E18 /* Knob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35B9261C2236B8A200AA2E18 /* KnobControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KnobControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B9261F2236B8A200AA2E18 /* KnobControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnobControl.h; sourceTree = "<group>"; };
 		35B926202236B8A200AA2E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B926272236B8EB00AA2E18 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		35B9261E2236B8A200AA2E18 /* KnobControl */ = {
 			isa = PBXGroup;
 			children = (
+				35B926272236B8EB00AA2E18 /* Knob.swift */,
 				35B9261F2236B8A200AA2E18 /* KnobControl.h */,
 				35B926202236B8A200AA2E18 /* Info.plist */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					35B9261B2236B8A200AA2E18 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B926282236B8EB00AA2E18 /* Knob.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		35B926252236B8A200AA2E18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexscottfordev.KnobControl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		35B926262236B8A200AA2E18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
