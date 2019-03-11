@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		35B926212236B8A200AA2E18 /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B9261F2236B8A200AA2E18 /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35B926282236B8EB00AA2E18 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B926272236B8EB00AA2E18 /* Knob.swift */; };
+		35B9262C2236BA3600AA2E18 /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9262B2236BA3600AA2E18 /* KnobRenderer.swift */; };
+		35B9262E2236BA9000AA2E18 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9262D2236BA9000AA2E18 /* RotationGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		35B9261F2236B8A200AA2E18 /* KnobControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnobControl.h; sourceTree = "<group>"; };
 		35B926202236B8A200AA2E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B926272236B8EB00AA2E18 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		35B9262B2236BA3600AA2E18 /* KnobRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobRenderer.swift; sourceTree = "<group>"; };
+		35B9262D2236BA9000AA2E18 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			isa = PBXGroup;
 			children = (
 				35B926272236B8EB00AA2E18 /* Knob.swift */,
+				35B9262B2236BA3600AA2E18 /* KnobRenderer.swift */,
+				35B9262D2236BA9000AA2E18 /* RotationGestureRecognizer.swift */,
 				35B9261F2236B8A200AA2E18 /* KnobControl.h */,
 				35B926202236B8A200AA2E18 /* Info.plist */,
 			);
@@ -134,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B9262C2236BA3600AA2E18 /* KnobRenderer.swift in Sources */,
+				35B9262E2236BA9000AA2E18 /* RotationGestureRecognizer.swift in Sources */,
 				35B926282236B8EB00AA2E18 /* Knob.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
